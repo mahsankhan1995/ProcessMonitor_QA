@@ -84,8 +84,9 @@ namespace ProcessMonitor
                             + processName + "\" after \"" + processRunTime.ToString("mm':'ss") 
                             + "\" Minutes of activity");
                         myprocess.Kill();
-                        LogWriter("Process \"" + processName + "\" was Killed"); //after \"" + processRunTime.ToString("mm':'ss")   + "\" Minutes of activity");
+                        LogWriter("Process \"" + processName + "\" was Killed\n"); //after \"" + processRunTime.ToString("mm':'ss")   + "\" Minutes of activity");
                         Console.ReadLine();
+                        Environment.Exit(0);
                         
                     }
 
