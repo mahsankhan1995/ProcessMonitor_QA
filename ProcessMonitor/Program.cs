@@ -16,15 +16,8 @@ namespace ProcessMonitor
         {
             Thread mainThread = Thread.CurrentThread;
             bool inputValidator;
-
-                /*
-                String processName = "Notepad";
-                double processLifeTime = 5;
-                double freq = 1;
-                */
-
-                String processName;
-                double processLifeTime, freq;
+            String processName;
+            double processLifeTime, freq;
 
                 Console.WriteLine("Please enter process name ....");
                 processName = Console.ReadLine();
